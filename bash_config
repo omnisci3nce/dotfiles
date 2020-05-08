@@ -1,1 +1,4 @@
+# aliases
+
 alias ll="ls -la"
+export PATH=$HOME/Documents/projects/dotfiles/scripts:$PATH

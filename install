@@ -1,3 +1,5 @@
+ #!/bin/bash
+
  ln -sf $PWD/bash_config $HOME/.bash_aliases
  ls -l $HOME/.bash_aliases
  ln -sf $PWD/nvim_config $HOME/.config/nvim/init.vim

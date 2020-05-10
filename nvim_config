@@ -5,3 +5,9 @@ set tabstop=2
 set shiftwidth=2
 
 au bufnewfile,bufRead bash_config set filetype=sh " adds syntax highlighting to bash config
+
+" Disable arrow keys
+no <down> <Nop>
+no <left> <Nop>
+no <right> <Nop>
+no <up> <Nop>

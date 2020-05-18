@@ -3,6 +3,8 @@ set nocompatible " ?
 set expandtab " tabs -> spaces
 set tabstop=2
 set shiftwidth=2
+set smartindent
+set incsearch
 
 au bufnewfile,bufRead bash_config set filetype=sh " adds syntax highlighting to bash config
 

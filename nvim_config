@@ -8,13 +8,16 @@ Plug 'leafgarland/typescript-vim'
 " Themes
 Plug 'ayu-theme/ayu-vim'
 Plug 'ntk148v/vim-horizon'
+Plug 'kaicataldo/material.vim'
 
 call plug#end()
 
 set termguicolors
 "let ayucolor="dark"
 "colorscheme ayu
-colorscheme horizon
+"colorscheme horizon
+let g:material_theme_style = 'darker'
+colorscheme material
 
 set number    " turn on line numbers
 set nocompatible " ?

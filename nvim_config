@@ -10,6 +10,8 @@ Plug 'ayu-theme/ayu-vim'
 Plug 'ntk148v/vim-horizon'
 Plug 'kaicataldo/material.vim'
 
+Plug 'itchyny/lightline.vim'
+
 call plug#end()
 
 set termguicolors
@@ -18,6 +20,11 @@ set termguicolors
 "colorscheme horizon
 let g:material_theme_style = 'darker'
 colorscheme material
+let g:lightline = { 'colorscheme': 'material_vim' }
+set noshowmode
+
+set cursorline
+hi CursorLine ctermbg=Black
 
 set number    " turn on line numbers
 set nocompatible " ?
@@ -26,6 +33,8 @@ set tabstop=2
 set shiftwidth=2
 set smartindent
 set incsearch
+
+set hidden
 
 au bufnewfile,bufRead bash_config set filetype=sh " adds syntax highlighting to bash config
 
